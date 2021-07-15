@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+        <div class="container">
+            <h3> I am thinking a number between 1 to 100</h3> 
+            <h3>Can you guess it?</h3>
+            <input id ="guess" placeholder="Num" type="text"> <br>
+            <button onclick="play()" id="btn">Guess</button>
+            <p id = "message1">Number of Guesses : 0</p>
+            <p id = "message2">Guessed Numbers : None</p>
+            <p id = "message3"></p>
+       </div>
+
+ <script src="./script.js"></script>
+</body>
+</html>
